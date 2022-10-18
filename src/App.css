@@ -1,12 +1,29 @@
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #084298;
-  background-color: transparent ; 
+body{
+  width:100%;
+    min-width:1000px;
+    height:auto;
 }
-
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #084298;  
+  color: #127e8b;
+  background-color: transparent ; 
+  border-bottom: 1px solid #127e8b;
   font-weight: 700;
 }
-.nav-link {
-  color: #212529;
+
+.nav-link, .nav-link:focus, .nav-link:hover  {
+  color: #1b8b99;
+}
+
+.nav-pills .nav-link { 
+  border-radius: 0rem; 
+}
+.home-page{
+  background-image: url("/src/img/mandala-opt.jpg"); 
+  
+  height: 830px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
 }
