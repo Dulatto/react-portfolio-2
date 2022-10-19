@@ -1,8 +1,4 @@
-body{
-  width:100%;
-    min-width:1000px;
-    height:auto;
-}
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #127e8b;
   background-color: transparent ; 
@@ -18,12 +14,34 @@ body{
   border-radius: 0rem; 
 }
 .home-page{
-  background-image: url("/src/img/mandala-opt.jpg"); 
-  
+  background-image: url("/src/img/mandala-opt.jpg");   
   height: 830px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   
+}
+@media screen and (max-width: 1200px) {
+  .home-page{
+    background-image: url("/src/img/mandala-bg-size.jpg");  
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home-page{
+    background-image: url("/src/img/mandala-md.jpg");  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page{
+    background-image: url("/src/img/mandala-sm.jpg");  
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home-page{
+    background-image: url("/src/img/mandala-xs.jpg");  
+  }
 }
