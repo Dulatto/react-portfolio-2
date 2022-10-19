@@ -7,14 +7,12 @@ function HomePage(props) {
     const typed = React.useRef(null);
     useEffect(() => {
         const options = {
-            strings: ['Some <i>strings</i> with', 'Some <strong>HTML</strong>', 'Chars &times; &copy;'],
-
+            strings: ["I'm <strong>Dulat Omarov</strong>", "I'm <strong>a web developer</strong>", "I'm <strong>a freelancer</strong>"],
             typeSpeed: 50,
             backSpeed: 50,
             fadeOut: true,
             loop: true
         };
-
         // elRef refers to the <span> rendered below
         typed.current = new Typed(el.current, options);
 
@@ -28,6 +26,10 @@ function HomePage(props) {
     return (
         <div className="home-text">
             <span className='d-inline' style={{ whiteSpace: 'pre' }} ref={el} />
+            <ul class="list-unstyled list-social">
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
         </div>
     );
 }
