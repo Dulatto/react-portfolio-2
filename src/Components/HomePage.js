@@ -25,10 +25,10 @@ function HomePage(props) {
 
     return (
         <div className="home-text">
-            <span className='d-inline' style={{ whiteSpace: 'pre' }} ref={el} />
-            <ul class="list-unstyled list-social">
-                <li><a href="#"><i class="fab fa-github"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <div className='d-inline' style={{ whiteSpace: 'pre' }} ref={el} />
+            <ul className="list-unstyled list-social">
+                <li className='d-inline'><a href="#"><i className="fab fa-github"></i></a></li>
+                <li className='d-inline'><a href="#"><i className="fab fa-linkedin"></i></a></li>
             </ul>
         </div>
     );
