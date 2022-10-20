@@ -69,16 +69,41 @@
   .home-page{
     background-image: url("/src/img/mandala-md.jpg");  
   }
+  .home-text { 
+    font-size:35px;   
+  }
+  .home-text a{    
+    font-size: 25px;
+  }
+  .home-page{    
+    height: 815px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .home-page{
     background-image: url("/src/img/mandala-sm.jpg");  
   }
+  .home-text { 
+    font-size:30px;  
+    left: 22%; 
+  }
+  .home-text a{    
+    font-size: 21px;
+  }
+  .home-page{    
+    height: 772px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .home-page{
     background-image: url("/src/img/mandala-xs.jpg");  
+  }
+  body{
+    font-size:14px;
+  }
+  .home-page{    
+    height: 736px;
   }
 }

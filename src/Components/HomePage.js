@@ -27,7 +27,7 @@ function HomePage(props) {
         <div className="home-text">
             <div className='d-inline' style={{ whiteSpace: 'pre' }} ref={el} />
             <ul className="list-unstyled list-social">
-                <li className='d-inline'><a href="#"><i className="fab fa-github"></i></a></li>
+                <li className='d-inline me-3'><a href="#"><i className="fab fa-github"></i></a></li>
                 <li className='d-inline'><a href="#"><i className="fab fa-linkedin"></i></a></li>
             </ul>
         </div>
