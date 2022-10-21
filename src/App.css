@@ -1,4 +1,5 @@
 
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #127e8b;
   background-color: transparent ; 
@@ -34,9 +35,20 @@
   font-weight: bold;
   width: 200px;
 }
-.home-text a{
+.home-text a, .social a{
   color: #fff;
   font-size: 30px;
+}
+.about-page{
+  background: #4db9c5;
+  height: 830px;
+}
+.about-page img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height:150px;
 }
 
 .typed-cursor{
