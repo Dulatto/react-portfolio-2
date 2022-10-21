@@ -44,10 +44,22 @@
   height: 830px;
 }
 .about-page img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
   padding: 5px;
  
+}
+
+.about-page .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #f57a20;
+}
+
+.about-page .div-img-bg .about-img img {
+  width: 100%;
+ 
+  margin-top: -65px;
+  margin-left: 47px;
+  height: 368px;
+  object-fit: cover;
 }
 
 .typed-cursor{
