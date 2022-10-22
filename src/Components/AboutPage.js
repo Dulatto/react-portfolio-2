@@ -34,7 +34,6 @@ function AboutPage(props) {
                         <div className="box"><span >JQuery</span></div>
                         <div className="box"><span >SQL</span></div>
                         <div className="box"><span >Bootstrap</span></div>
-                        <div className="box"><span >WordPress</span></div>
                         <div className="box"><span >Github</span></div>
                         <div className="box"><button className="btn btn-default btn-md"><a href="/src/doc/CV_Dulat_Omarov_2022.pdf" ><b> Download CV</b></a></button></div>
                     </div>

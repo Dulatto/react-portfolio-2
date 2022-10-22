@@ -1,6 +1,7 @@
 
 import './App.css';
 import AboutPage from './Components/AboutPage';
+import ContactPage from './Components/ContactPage';
 import HomePage from './Components/HomePage';
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
               </div>
               <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><AboutPage /></div>
               <div className="tab-pane fade" id="pills-portfolio" role="tabpanel" aria-labelledby="pills-portfolio-tab">33333</div>
-              <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">4444</div>
+              <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><ContactPage /></div>
             </div>
           </div>
         </div>
