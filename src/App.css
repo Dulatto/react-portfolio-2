@@ -3,7 +3,7 @@
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #127e8b;
   background-color: transparent ; 
-  border-bottom: 1px solid #127e8b;
+  border-bottom: 2px solid #f57a20;
   font-weight: 700;
 }
 
@@ -44,8 +44,7 @@
   height: 830px;
 }
 .about-page img {
-  padding: 5px;
- 
+  padding: 5px; 
 }
 
 .about-page .div-img-bg {
@@ -54,12 +53,17 @@
 }
 
 .about-page .div-img-bg .about-img img {
-  width: 100%;
- 
+  width: 100%; 
   margin-top: -65px;
   margin-left: 47px;
   height: 368px;
   object-fit: cover;
+}
+.skills{
+  font-size: 18px;
+}
+.skills-header{
+  color: #f57a20;
 }
 
 .typed-cursor{

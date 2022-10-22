@@ -20,14 +20,14 @@ function AboutPage(props) {
                 </div>
 
             </div>
-            <div className="col-md-8">
+            <div className="col-md-8 skills">
 
-                <p>Hello World! <br />My name is Dulat. I am a Front-end Developer, graduating of Web technology program in John Abbott college. I have 3 years commercial experience providing front-end development, producing high quality responsive websites and exceptional user experience.<br />
+                <p><span className="fw-bold skills-header">Hello World!</span> <br />My name is Dulat. I am a Front-end Developer, graduating of Web technology program in John Abbott college. I have 3 years commercial experience providing front-end development, producing high quality responsive websites and exceptional user experience.<br />
                     I like to code things from scratch, and enjoy bringing ideas to life in the browser.<br /> By day I'm the developer at a local agency. By night I spend my time working on freelance projects and building my own products.<br />
                     All my skills you can see in right side for Desktop version or in following section for mobile.</p>
                 <figure>
-                    <div className="skills ">
-                        <div className="box"><span >  &nbsp;</span></div>
+                    <span className="fw-bold skills-header">Skills</span>
+                    <div >
                         <div className="box"><span >HTML5/CSS3</span></div>
                         <div className="box"><span >Javascript</span></div>
                         <div className="box"><span >React.js</span></div>
