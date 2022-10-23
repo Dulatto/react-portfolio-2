@@ -49,9 +49,18 @@
   color: #fff;
   font-size: 30px;
 }
-.about-page{
+.about-page, .contact-page{
   background: #4db9c5;
   height: 830px;
+}
+.contact-page .btn-outline-secondary {
+  color: #E3721B;
+  border-color: #E3721B;
+}
+.contact-page .btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #E3721B;
+  border-color: #E3721B;
 }
 .about-page img {
   padding: 5px; 

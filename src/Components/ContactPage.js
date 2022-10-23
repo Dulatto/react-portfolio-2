@@ -3,9 +3,9 @@ import React from 'react';
 function ContactPage(props) {
     return (
 
-        <div className="row p-3 mt-3 contact-page" >
+        <div className="row p-3  contact-page" >
 
-            <div className="col-md-9" >
+            <div className="col-md-8 mt-3" >
 
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div className="row">
@@ -21,23 +21,29 @@ function ContactPage(props) {
                                 <p className="help-block text-danger"></p>
                             </div>
                         </div>
+                        <div className="col-12">
+                            <div className="form-group">
+                                <input type="subject" id="subject" className="form-control" placeholder="Subject" required="required" />
+                                <p className="help-block text-danger"></p>
+                            </div>
+                        </div>
                     </div>
                     <div className="form-group">
-                        <textarea name="message" id="message" className="form-control" rows="4" placeholder="Message" required></textarea>
+                        <textarea name="message" id="message" className="form-control" rows="5" placeholder="Message" required></textarea>
                         <p className="help-block text-danger"></p>
                     </div>
                     <div id="success"></div>
                     <button type="submit" className="btn btn-outline-secondary">Send Message</button>
                 </form>
             </div>
-            <div className="col-md-3 px-3">
-                <h2>GET IN TOUCH</h2>
+            <div className="col-md-4 px-3 mt-3">
+                <h4 className="fw-bold skills-header">GET IN TOUCH</h4>
                 <div className="section-title">
 
 
-                    <h3>Location</h3>
+                    <h4>Location</h4>
                     <p>New York, United States</p>
-                    <h3>Email</h3>
+                    <h4>Email</h4>
                     <p>dulat.omarov@gmail.com </p>
 
 
