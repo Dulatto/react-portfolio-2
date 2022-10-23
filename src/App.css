@@ -49,7 +49,7 @@
   color: #fff;
   font-size: 30px;
 }
-.about-page, .contact-page{
+.about-page{
   background: #4db9c5;
   height: 830px;
 }
@@ -61,6 +61,20 @@
   color: #fff;
   background-color: #E3721B;
   border-color: #E3721B;
+}
+.contact-page .btn-check:focus+.btn-outline-secondary, .btn-outline-secondary:focus {
+  box-shadow: 0 0 0 0rem rgb(108 117 125 / 50%); 
+}
+.contract-page .form-control{
+  border: 2px solid #127e8b;
+}
+.contact-page .form-control:focus {
+  border-color: #E3721B; 
+  box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%); 
+}
+.contact-page .btn-check:focus+.btn, .btn:focus {
+  outline: 0;
+   box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%); 
 }
 .about-page img {
   padding: 5px; 

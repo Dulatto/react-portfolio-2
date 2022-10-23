@@ -36,19 +36,14 @@ function ContactPage(props) {
                     <button type="submit" className="btn btn-outline-secondary">Send Message</button>
                 </form>
             </div>
-            <div className="col-md-4 px-3 mt-3">
+            <div className="col-md-4 px-4 mt-3">
                 <h4 className="fw-bold skills-header">GET IN TOUCH</h4>
                 <div className="section-title">
-
-
-                    <h4>Location</h4>
-                    <p>New York, United States</p>
-                    <h4>Email</h4>
+                    <h5>Location</h5>
+                    <p>Montreal, Quebec, Canada</p>
+                    <h5>Email</h5>
                     <p>dulat.omarov@gmail.com </p>
-
-
                 </div>
-
             </div>
         </div>
 
