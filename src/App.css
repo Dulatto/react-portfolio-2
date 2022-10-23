@@ -1,4 +1,7 @@
 
+.row {
+  --bs-gutter-x: 0rem;
+}
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #127e8b;

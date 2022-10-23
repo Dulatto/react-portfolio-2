@@ -7,7 +7,7 @@ import HomePage from './Components/HomePage';
 function App() {
   return (
     <div className="App">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row ">
           <div className="col-12 bg-light pt-2">
             <ul className="nav nav-pills float-end mb-3" id="pills-tab" role="tablist">
@@ -27,12 +27,10 @@ function App() {
           </div>
           <div className="col-12 p-0">
             <div className="tab-content" id="pills-tabContent">
-              <div className="tab-pane fade show home-page active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                <HomePage />
-              </div>
-              <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><AboutPage /></div>
-              <div className="tab-pane fade" id="pills-portfolio" role="tabpanel" aria-labelledby="pills-portfolio-tab">33333</div>
-              <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><ContactPage /></div>
+              <div className="tab-pane fade show home-page active" id="pills-home" ><HomePage /></div>
+              <div className="tab-pane fade" id="pills-profile" ><AboutPage /></div>
+              <div className="tab-pane fade" id="pills-portfolio" >33333</div>
+              <div className="tab-pane fade" id="pills-contact" ><ContactPage /></div>
             </div>
           </div>
         </div>
