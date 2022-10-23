@@ -1,4 +1,11 @@
 
+@font-face{
+  font-family: 'defaultFont';
+  src: url('../src/fonts/Poppins-Light.otf')
+}
+.about-page, .contact-page{
+  font-family: 'defaultFont';
+}
 .row {
   --bs-gutter-x: 0rem;
 }
