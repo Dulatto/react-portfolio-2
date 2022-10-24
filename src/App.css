@@ -76,6 +76,12 @@
   outline: 0;
    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%); 
 }
+.portfolio .border-bottom {
+  border-bottom: 2px solid #212529!important;
+}
+.portfolio .btn{
+  border-radius: 0rem;
+}
 .about-page img {
   padding: 5px; 
 }
