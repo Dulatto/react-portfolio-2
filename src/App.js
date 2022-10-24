@@ -3,6 +3,7 @@ import './App.css';
 import AboutPage from './Components/AboutPage';
 import ContactPage from './Components/ContactPage';
 import HomePage from './Components/HomePage';
+import PortfolioPage from './Components/PortfolioPage';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
             <div className="tab-content" id="pills-tabContent">
               <div className="tab-pane fade show home-page active" id="pills-home" ><HomePage /></div>
               <div className="tab-pane fade" id="pills-profile" ><AboutPage /></div>
-              <div className="tab-pane fade" id="pills-portfolio" >33333</div>
+              <div className="tab-pane fade" id="pills-portfolio" ><PortfolioPage /></div>
               <div className="tab-pane fade" id="pills-contact" ><ContactPage /></div>
             </div>
           </div>
