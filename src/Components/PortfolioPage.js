@@ -16,6 +16,26 @@ const images = [
     { id: 13, text: 'Timer', description: 'React, JavaScript', type: 'React', url: 'https://react-timer-dulatto.vercel.app/' },
 ]
 
+let list = images.map(item => {
+    return (<div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+        <div className={`card hover-bg text-dark mb-2 bground-${item.id}`} key={item.id}>
+            <a href={item.url} target="_blank">
+                <div className="card-body">
+                    <div className="hover-text">
+                        <div className="overlay-caption">
+                            <div className="overlay-content">
+                                <h4 className="card-title">{item.text}</h4>
+                                <hr />
+                                <h5 className="card-text">{item.description}</h5>
+                            </div>
+                        </div>
+                    </div >
+                </div>
+            </a>
+        </div>
+    </div>)
+})
+
 function PortfolioPage(props) {
     const [activeButton, setActiveButton] = useState('all');
 

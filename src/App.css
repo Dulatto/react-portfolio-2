@@ -125,6 +125,106 @@
   -webkit-animation: 0;
   animation: 0;
 }
+/*****************************/
+.bground-1 {
+  background: url("./img/dating.jpg");
+}
+.bground-2 {
+  background: url("./img/rest.jpg");
+}
+.bground-3 {
+  background: url("./img/dating-2.jpg");
+}
+.bground-4 {
+  background: url("./img/med.jpg");
+}
+.bground-5 {
+  background: url("./img/book.jpg");
+}
+.bground-6 {
+  background: url("./img/pet.jpg");
+}
+.bground-7 {
+  background: url("./img/cafe.jpg");
+}
+.bground-8 {
+  background: url("./img/weather.png");
+}
+.bground-9 {
+  background: url("./img/todo.jpg");
+}
+.bground-10 {
+  background: url("./img/corona.jpg");
+}
+.bground-11 {
+  background: url("./img/portfolio.jpg");
+}
+.bground-12 {
+  background: url("./img/shopping_carts.jpg");
+}
+.bground-13 {
+  background: url("./img/timer.jpg");
+}
+
+.bground-1,
+.bground-2,
+.bground-3,
+.bground-4,
+.bground-5,
+.bground-6,
+.bground-7,
+.bground-8,
+.bground-9,
+.bground-10,
+.bground-11,
+.bground-12,
+.bground-13 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  /*border: 2px solid#08fdd8;*/
+}
+.portfolio-item .hover-bg {
+  overflow: hidden;
+  position: relative;
+}
+.portfolio-item hr {
+  height: 6px !important;
+  width: 100px;
+  position: relative;
+  background: #08fdd8;
+  margin-bottom: 20px;
+  margin-left: 0;
+  border: 0;
+  opacity: 1 !important;
+}
+.hover-bg .hover-text {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  color: #333;
+  background: rgba(255, 255, 255, 0.75);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  border-bottom: 2px solid #08fdd8;
+}
+.hover-bg .hover-text .overlay-caption {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.hover-bg .hover-text .overlay-caption .overlay-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hover-bg:hover .hover-text {
+  opacity: 1;
+}
+/******************************************/
 @media screen and (max-width: 1200px) {
   .home-page{
     background-image: url("/src/img/mandala-bg-size.jpg");  
