@@ -125,6 +125,9 @@
   -webkit-animation: 0;
   animation: 0;
 }
+.button-group{
+  width:300px
+}
 /*****************************/
 .bground-1 {
   background: url("./img/dating.jpg");
@@ -194,7 +197,7 @@
   height: 6px !important;
   width: 100px;
   position: relative;
-  background: #08fdd8;
+  background: #127e8b;
   margin-bottom: 20px;
   margin-left: 0;
   border: 0;
@@ -210,7 +213,7 @@
   width: 100%;
   opacity: 0;
   transition: all 0.5s;
-  border-bottom: 2px solid #08fdd8;
+  border-bottom: 2px solid #127e8b;
 }
 .hover-bg .hover-text .overlay-caption {
   display: table;
@@ -226,6 +229,10 @@
 }
 .card-body {
   padding: 0rem 0rem;
+}
+.card {
+  border: 0px solid rgba(0,0,0,.125);
+  border-radius: 0rem;
 }
 /******************************************/
 @media screen and (max-width: 1200px) {

@@ -37,7 +37,7 @@ let list = images.map(item => {
 })
 
 function PortfolioPage(props) {
-    const [activeButton, setActiveButton] = useState('all');
+    const [activeButton, setActiveButton] = useState('web');
     const [gallery, setGallery] = useState([list])
 
     const frame = (item) => {
@@ -61,16 +61,9 @@ function PortfolioPage(props) {
 
 
     const handleButtonName = (e) => {
-        console.log('handleButtonName', e.target.name);
+        //console.log('handleButtonName', e.target.name);
         setActiveButton(e.target.name);
-        if (e.target.name === 'all') {
-            let list = images.map(item => {
-                return (
-                    frame(item)
-                )
-            })
-            setGallery(list);
-        } else if (e.target.name === 'web') {
+        if (e.target.name === 'web') {
             let list = images.filter(item => item.type === 'JS')
             let web = list.map(item => {
                 return (
@@ -96,8 +89,8 @@ function PortfolioPage(props) {
             <h4>MY PORTFOLIO</h4>
             <div className="row portfolio">
                 <div className="col-12 ">
-                    <div className=" start-50" >
-                        <button type="button" className={`btn fw-bold me-3 ${activeButton === 'all' ? 'border-bottom' : null}`} name='all' onClick={(e) => handleButtonName(e)}>ALL</button>
+                    <div className="mx-auto button-group" >
+
                         <button type="button" className={`btn fw-bold me-3 ${activeButton === 'web' ? 'border-bottom' : null}`} name='web' onClick={(e) => handleButtonName(e)}>WEB </button>
                         <button type="button" className={`btn fw-bold me-3 ${activeButton === 'react' ? 'border-bottom' : null}`} name='react' onClick={(e) => handleButtonName(e)}>REACT</button>
                     </div>
