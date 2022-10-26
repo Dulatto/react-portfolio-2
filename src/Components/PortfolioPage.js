@@ -17,7 +17,7 @@ const images = [
 ]
 
 let list = images.map(item => {
-    return (<div className="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+    return (<div className="col-lg-4 col-sm-6 portfolio-item">
         <div className={`card hover-bg text-dark mb-2 bground-${item.id}`} key={item.id}>
             <a href={item.url} target="_blank">
                 <div className="card-body">
@@ -42,7 +42,7 @@ function PortfolioPage(props) {
 
     const frame = (item) => {
         return (
-            <div className="col-lg-3 col-md-4 col-sm-6  portfolio-item" >
+            <div className="col-lg-4  col-sm-6  portfolio-item" >
                 <div className={`card hover-bg text-dark mb-2 bground-${item.id}`} key={item.id}>
                     <div className="card-body">
                         <div class="hover-text">
@@ -95,15 +95,17 @@ function PortfolioPage(props) {
         <div>
             <h4>MY PORTFOLIO</h4>
             <div className="row portfolio">
-                <div className="col-12 position-relative">
-                    <div className="position-absolute start-50" >
+                <div className="col-12 ">
+                    <div className=" start-50" >
                         <button type="button" className={`btn fw-bold me-3 ${activeButton === 'all' ? 'border-bottom' : null}`} name='all' onClick={(e) => handleButtonName(e)}>ALL</button>
                         <button type="button" className={`btn fw-bold me-3 ${activeButton === 'web' ? 'border-bottom' : null}`} name='web' onClick={(e) => handleButtonName(e)}>WEB </button>
                         <button type="button" className={`btn fw-bold me-3 ${activeButton === 'react' ? 'border-bottom' : null}`} name='react' onClick={(e) => handleButtonName(e)}>REACT</button>
                     </div>
                 </div>
-                <div className="col-12">
-                    {gallery}
+                <div className="col-12 position-relative">
+                    <div className="row">
+                        {gallery}
+                    </div>
                 </div>
             </div>
         </div>
