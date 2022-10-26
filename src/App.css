@@ -224,6 +224,9 @@
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+.card-body {
+  padding: 0rem 0rem;
+}
 /******************************************/
 @media screen and (max-width: 1200px) {
   .home-page{
