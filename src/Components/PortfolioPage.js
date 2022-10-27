@@ -16,6 +16,7 @@ const images = [
     { id: 13, text: 'Invitation list', description: 'React, TypeScript', type: 'React', url: 'https://invite-list.vercel.app/' },
     { id: 14, text: 'Quiz app', description: 'React, TypeScript', type: 'React', url: 'https://quiz-app-dulatto.vercel.app/' },
     { id: 15, text: 'Tax calculator', description: 'React, JavaScript', type: 'React', url: 'https://react-tax-calculator.vercel.app/' },
+    { id: 16, text: 'Portfolio website', description: 'React, JavaScript', type: 'React', url: 'https://react-portfolio-website-sigma.vercel.app/' },
 ]
 
 let list = images.map(item => {
