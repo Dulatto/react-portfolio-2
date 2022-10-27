@@ -168,6 +168,12 @@
 .bground-13 {
   background: url("./img/timer.jpg");
 }
+.bground-14 {
+  background: url("./img/shopping_carts.jpg");
+}
+.bground-15 {
+  background: url("./img/shopping_carts.jpg");
+}
 
 .bground-1,
 .bground-2,
@@ -181,7 +187,9 @@
 .bground-10,
 .bground-11,
 .bground-12,
-.bground-13 {
+.bground-13,
+.bground-14,
+.bground-15 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

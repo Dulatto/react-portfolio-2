@@ -13,6 +13,9 @@ const images = [
     { id: 10, text: 'Covid Tracker', description: 'React, JavaScript', type: 'React', url: 'https://react-corona-tracker-plum.vercel.app/' },
     { id: 11, text: 'Shopping cart', description: 'React, Redux, JavaScript', type: 'React', url: 'https://redux-store-orpin.vercel.app/' },
     { id: 12, text: 'Timer', description: 'React, JavaScript', type: 'React', url: 'https://react-timer-dulatto.vercel.app/' },
+    { id: 13, text: 'Invitation list', description: 'React, TypeScript', type: 'React', url: 'https://invite-list.vercel.app/' },
+    { id: 14, text: 'Quiz app', description: 'React, TypeScript', type: 'React', url: 'https://quiz-app-dulatto.vercel.app/' },
+    { id: 15, text: 'Tax calculator', description: 'React, JavaScript', type: 'React', url: 'https://react-tax-calculator.vercel.app/' },
 ]
 
 let list = images.map(item => {
