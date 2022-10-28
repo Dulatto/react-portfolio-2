@@ -8,15 +8,14 @@ const images = [
     { id: 5, text: 'Book Store', description: 'HTML, JavaScript', type: 'JS', url: 'https://bestseller.kz/' },
     { id: 6, text: 'Pet Supply Store', description: 'HTML, JavaScript', type: 'JS', url: 'http://miska.kz/' },
     { id: 7, text: 'Cafe', description: 'HTML, JavaScript', type: 'JS', url: 'http://www.falafelstjacques.com/' },
-    { id: 8, text: 'Weather Widget', description: 'React, JavaScript', type: 'React', url: 'https://react-weather-widget-dulatto.vercel.app/' },
-    { id: 9, text: 'ToDo List', description: 'React, JavaScript', type: 'React', url: 'https://react-todo-list-iiwqmujls.vercel.app/' },
-    { id: 10, text: 'Covid Tracker', description: 'React, JavaScript', type: 'React', url: 'https://react-corona-tracker-plum.vercel.app/' },
-    { id: 11, text: 'Shopping cart', description: 'React, Redux, JavaScript', type: 'React', url: 'https://redux-store-orpin.vercel.app/' },
-    { id: 12, text: 'Timer', description: 'React, JavaScript', type: 'React', url: 'https://react-timer-dulatto.vercel.app/' },
-    { id: 13, text: 'Invitation list', description: 'React, TypeScript', type: 'React', url: 'https://invite-list.vercel.app/' },
-    { id: 14, text: 'Quiz app', description: 'React, TypeScript', type: 'React', url: 'https://quiz-app-dulatto.vercel.app/' },
-    { id: 15, text: 'Tax calculator', description: 'React, JavaScript', type: 'React', url: 'https://react-tax-calculator.vercel.app/' },
-    { id: 16, text: 'Portfolio website', description: 'React, JavaScript', type: 'React', url: 'https://react-portfolio-website-sigma.vercel.app/' },
+    { id: 8, text: 'ToDo List', description: 'React, JavaScript', type: 'React', url: 'https://react-todo-list-iiwqmujls.vercel.app/' },
+    { id: 9, text: 'Covid Tracker', description: 'React, JavaScript', type: 'React', url: 'https://react-corona-tracker-plum.vercel.app/' },
+    { id: 10, text: 'Shopping cart', description: 'React, Redux, JavaScript', type: 'React', url: 'https://redux-store-orpin.vercel.app/' },
+    { id: 11, text: 'Timer', description: 'React, JavaScript', type: 'React', url: 'https://react-timer-dulatto.vercel.app/' },
+    { id: 12, text: 'Invitation list', description: 'React, TypeScript', type: 'React', url: 'https://invite-list.vercel.app/' },
+    { id: 13, text: 'Quiz app', description: 'React, TypeScript', type: 'React', url: 'https://quiz-app-dulatto.vercel.app/' },
+    { id: 14, text: 'Tax calculator', description: 'React, JavaScript', type: 'React', url: 'https://react-tax-calculator.vercel.app/' },
+    { id: 15, text: 'Portfolio website', description: 'React, JavaScript', type: 'React', url: 'https://react-portfolio-website-sigma.vercel.app/' },
 ]
 
 let list = images.map(item => {

@@ -150,31 +150,29 @@
 .bground-7 {
   background: url("./img/cafe.jpg");
 }
+
 .bground-8 {
-  background: url("./img/weather.png");
-}
-.bground-9 {
   background: url("./img/todo.jpg");
 }
-.bground-10 {
+.bground-9 {
   background: url("./img/corona.jpg");
 }
-.bground-11 {
+.bground-15 {
   background: url("./img/portfolio.jpg");
 }
 .bground-12 {
   background: url("./img/shopping_carts.jpg");
 }
-.bground-13 {
+.bground-11 {
   background: url("./img/timer.jpg");
+}
+.bground-13 {
+  background: url("./img/shopping_carts.jpg");
 }
 .bground-14 {
   background: url("./img/shopping_carts.jpg");
 }
-.bground-15 {
-  background: url("./img/shopping_carts.jpg");
-}
-.bground-16 {
+.bground-10 {
   background: url("./img/shopping_carts.jpg");
 }
 
@@ -193,7 +191,7 @@
 .bground-13,
 .bground-14,
 .bground-15,
-.bground-16 {
+.bground-15 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
