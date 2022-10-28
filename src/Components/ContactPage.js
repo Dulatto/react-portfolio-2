@@ -7,7 +7,7 @@ function ContactPage(props) {
 
             <div className="col-md-8 mt-3" >
 
-                <form name="sentMessage" id="contactForm" novalidate>
+                <form name="sentMessage" id="contactForm" >
                     <div className="row">
                         <div className="col me-2">
                             <div className="form-group">

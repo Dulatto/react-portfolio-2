@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const images = [
     { id: 1, text: 'Dating Website', description: 'HTML, JavaScript', type: 'JS', url: 'https://www.bootyfinder.com//' },
@@ -18,75 +18,51 @@ const images = [
     { id: 15, text: 'Portfolio website', description: 'React, JavaScript', type: 'React', url: 'https://react-portfolio-website-sigma.vercel.app/' },
 ]
 
-let list = images.map(item => {
-    return (<div className="col-lg-4 col-sm-6 p-2 portfolio-item">
-        <div className={`card hover-bg text-dark mb-2 bground-${item.id}`} key={item.id}>
-            <a href={item.url} target="_blank">
-                <div className="card-body">
-                    <div className="hover-text">
-                        <div className="overlay-caption">
-                            <div className="overlay-content">
-                                <h4 className="card-title">{item.text}</h4>
-                                <hr />
-                                <h5 className="card-text">{item.description}</h5>
-                            </div>
-                        </div>
-                    </div >
-                </div>
-            </a>
-        </div>
-    </div>)
-})
+
 
 function PortfolioPage(props) {
     const [activeButton, setActiveButton] = useState('web');
-    const [gallery, setGallery] = useState([list])
 
-    const frame = (item) => {
-        return (
-            <div className="col-lg-4 col-sm-6 p-2 portfolio-item" >
+    useEffect(() => {
+        showGallery()
+    }, [])
+
+
+    const showGallery = () => {
+        let gallery;
+        if (activeButton === 'web') {
+            gallery = images.filter(item => item.type === 'JS')
+            console.log(gallery)
+        } else {
+            gallery = images.filter(item => item.type === 'React')
+            console.log(gallery)
+        }
+        let list = gallery.map(item => {
+            return (<div className="col-lg-4 col-sm-6 p-2 portfolio-item">
                 <div className={`card hover-bg text-dark mb-2 bground-${item.id}`} key={item.id}>
                     <a href={item.url} target="_blank">
                         <div className="card-body">
-                            <div class="hover-text">
-                                <div class="overlay-caption">
-                                    <div class="overlay-content">
+                            <div className="hover-text">
+                                <div className="overlay-caption">
+                                    <div className="overlay-content">
                                         <h4 className="card-title">{item.text}</h4>
                                         <hr />
                                         <h5 className="card-text">{item.description}</h5>
                                     </div>
                                 </div>
-                            </div>
+                            </div >
                         </div>
                     </a>
                 </div>
-            </div >);
+            </div>)
+        })
+        return list
     }
-
 
     const handleButtonName = (e) => {
-        //console.log('handleButtonName', e.target.name);
         setActiveButton(e.target.name);
-        if (e.target.name === 'web') {
-            let list = images.filter(item => item.type === 'JS')
-            let web = list.map(item => {
-                return (
-                    frame(item)
-                )
-            });
-            setGallery(web);
-        } else {
-            let list = images.filter(item => item.type === 'React')
-            let web = list.map(item => {
-                return (
-                    frame(item)
-                )
-            });
-            setGallery(web);
-        }
+        showGallery();
     }
-
-
 
     return (
         <div>
@@ -101,7 +77,7 @@ function PortfolioPage(props) {
                 </div>
                 <div className="col-12 position-relative">
                     <div className="row">
-                        {gallery}
+                        {showGallery()}
                     </div>
                 </div>
             </div>

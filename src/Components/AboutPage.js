@@ -5,9 +5,9 @@ function AboutPage(props) {
     return (
         <div className="row about-page p-5 justify-content-between">
             <div className="col-md-4">
-                <div class="div-img-bg my-5 me-5">
-                    <div class="about-img">
-                        <img src={about} width='300' height='250' class="img-responsive" />
+                <div className="div-img-bg my-5 me-5">
+                    <div className="about-img">
+                        <img src={about} width='300' height='250' className="img-responsive" />
                     </div>
                 </div>
                 <div className="social">
