@@ -3,9 +3,9 @@ import React from 'react';
 function ContactPage(props) {
     return (
 
-        <div className="row contact-page ms-5" >
+        <div className="row contact-page" >
 
-            <div className="col-md-7 mt-3 p-3 shadow contactForm" >
+            <div className="col-md-7 my-3 ms-4 p-3 shadow contactForm" >
 
                 <form name="sentMessage" id="contactForm" className="mt-4">
                     <div className="row">

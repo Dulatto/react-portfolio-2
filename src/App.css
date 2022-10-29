@@ -55,7 +55,7 @@
   color: #fff;
   font-size: 30px;
 }
-.about-page, .address{
+.about-page, .contact-page{
   background: #4db9c5;
   height: 830px;
 }
@@ -114,6 +114,9 @@
 .form-control {
   border: 1px solid #127e8b;
   border-radius: 0rem; 
+}
+.contactForm{
+  background: #fff;
 }
 .contactForm .btn {
   border-radius: 0rem;  
