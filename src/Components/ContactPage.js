@@ -3,11 +3,11 @@ import React from 'react';
 function ContactPage(props) {
     return (
 
-        <div className="row p-3  contact-page" >
+        <div className="row contact-page ms-5" >
 
-            <div className="col-md-8 mt-3" >
+            <div className="col-md-7 mt-3 p-3 shadow contactForm" >
 
-                <form name="sentMessage" id="contactForm" >
+                <form name="sentMessage" id="contactForm" className="mt-4">
                     <div className="row">
                         <div className="col me-2">
                             <div className="form-group">
@@ -36,7 +36,7 @@ function ContactPage(props) {
                     <button type="submit" className="btn btn-outline-secondary">Send Message</button>
                 </form>
             </div>
-            <div className="col-md-4 px-4 mt-3">
+            <div className="col-md-4 ms-5 px-4 mt-3 address">
                 <h4 className="fw-bold skills-header">GET IN TOUCH</h4>
                 <div className="section-title">
                     <h5>Location</h5>

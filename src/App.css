@@ -55,7 +55,7 @@
   color: #fff;
   font-size: 30px;
 }
-.about-page{
+.about-page, .address{
   background: #4db9c5;
   height: 830px;
 }
@@ -111,7 +111,13 @@
 .skills-header{
   color: #f57a20;
 }
-
+.form-control {
+  border: 1px solid #127e8b;
+  border-radius: 0rem; 
+}
+.contactForm .btn {
+  border-radius: 0rem;  
+}
 .typed-cursor{
   opacity: 1;
   animation: typedjsBlink 0.7s infinite;
