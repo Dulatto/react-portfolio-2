@@ -16,6 +16,12 @@
   border-bottom: 2px solid #f57a20;
   font-weight: 700;
 }
+.portfolio button{
+  color: #127e8b;
+}
+.portfolio .btn:hover{
+  color: #127e8b;
+}
 
 .nav-link, .nav-link:focus, .nav-link:hover  {
   color: #1b8b99;
@@ -77,8 +83,9 @@
    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%); 
 }
 .portfolio .border-bottom {
-  border-bottom: 2px solid #212529!important;
+  border-bottom: 2px solid #f57a20!important;
 }
+
 .portfolio .btn{
   border-radius: 0rem;
 }

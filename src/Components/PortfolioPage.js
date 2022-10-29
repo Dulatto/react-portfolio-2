@@ -66,13 +66,13 @@ function PortfolioPage(props) {
 
     return (
         <div>
-            <h4>MY PORTFOLIO</h4>
+
             <div className="row portfolio">
                 <div className="col-12 ">
-                    <div className="mx-auto button-group" >
+                    <div className="mx-auto button-group mb-2" >
 
-                        <button type="button" className={`btn fw-bold me-3 ${activeButton === 'web' ? 'border-bottom' : null}`} name='web' onClick={(e) => handleButtonName(e)}>WEB </button>
-                        <button type="button" className={`btn fw-bold me-3 ${activeButton === 'react' ? 'border-bottom' : null}`} name='react' onClick={(e) => handleButtonName(e)}>REACT</button>
+                        <button type="button" className={`btn  me-3 ${activeButton === 'web' ? 'border-bottom fw-bold' : null}`} name='web' onClick={(e) => handleButtonName(e)}>WEB </button>
+                        <button type="button" className={`btn  me-3 ${activeButton === 'react' ? 'border-bottom fw-bold' : null}`} name='react' onClick={(e) => handleButtonName(e)}>REACT</button>
                     </div>
                 </div>
                 <div className="col-12 position-relative">
