@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toast'
 
 function ContactPage(props) {
 
@@ -7,7 +8,7 @@ function ContactPage(props) {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+        debugger
         emailjs
             .sendForm(
                 "service_128e84u",
@@ -16,15 +17,16 @@ function ContactPage(props) {
                 "XOQz8gxqGSUyWL5qo"
             )
             .then(
+
                 (result) => {
-                    console.log(result.text);
-                    alert("SUCCESS!");
-                },
-                (error) => {
-                    console.log(error.text);
-                    alert("FAILED...", error);
+                    toast.success('Thank you, your message has been sent!',)
+                    console.log(result)
                 }
-            );
+
+            ).catch((error) => {
+                toast.error((error.text))
+
+            })
     };
     return (
 

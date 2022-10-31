@@ -4,6 +4,7 @@ import AboutPage from './Components/AboutPage';
 import ContactPage from './Components/ContactPage';
 import HomePage from './Components/HomePage';
 import PortfolioPage from './Components/PortfolioPage';
+import { ToastContainer } from 'react-toast'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           </div>
         </div>
       </div>
+      <ToastContainer position="top-right" delay={3000} />
     </div>
   );
 }
