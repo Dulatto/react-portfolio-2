@@ -1,4 +1,5 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 function ContactPage(props) {
     return (
@@ -11,19 +12,19 @@ function ContactPage(props) {
                     <div className="row">
                         <div className="col me-2">
                             <div className="form-group">
-                                <input type="text" className="form-control" placeholder="Name" required="required" />
+                                <input type="name" name='name' className="form-control" placeholder="Name" required="required" />
                                 <p className="help-block text-danger"></p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="form-group">
-                                <input type="email" id="email" className="form-control" placeholder="Email" required="required" />
+                                <input type="email" name='email' id="email" className="form-control" placeholder="Email" required="required" />
                                 <p className="help-block text-danger"></p>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="form-group">
-                                <input type="subject" id="subject" className="form-control" placeholder="Subject" required="required" />
+                                <input type="subject" id="subject" name="subject" className="form-control" placeholder="Subject" required="required" />
                                 <p className="help-block text-danger"></p>
                             </div>
                         </div>
