@@ -1,30 +1,54 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 function ContactPage(props) {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_128e84u",
+                "template_i6dy4gg",
+                form.current,
+                "XOQz8gxqGSUyWL5qo"
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    alert("SUCCESS!");
+                },
+                (error) => {
+                    console.log(error.text);
+                    alert("FAILED...", error);
+                }
+            );
+    };
     return (
 
         <div className="row contact-page" >
 
             <div className="col-md-7 my-3 ms-4 p-3 shadow contactForm" >
 
-                <form name="sentMessage" id="contactForm" className="mt-4">
+                <form name="sentMessage" id="contactForm" className="mt-4" ref={form} onSubmit={sendEmail}>
                     <div className="row">
                         <div className="col me-2">
                             <div className="form-group">
-                                <input type="name" name='name' className="form-control" placeholder="Name" required="required" />
+                                <input type="text" name='user_name' className="form-control" placeholder="Name" required="required" />
                                 <p className="help-block text-danger"></p>
                             </div>
                         </div>
                         <div className="col">
                             <div className="form-group">
-                                <input type="email" name='email' id="email" className="form-control" placeholder="Email" required="required" />
+                                <input type="email" name='user_email' id="email" className="form-control" placeholder="Email" required="required" />
                                 <p className="help-block text-danger"></p>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="form-group">
-                                <input type="subject" id="subject" name="subject" className="form-control" placeholder="Subject" required="required" />
+                                <input type="subject" id="subject" name="user_subject" className="form-control" placeholder="Subject" required="required" />
                                 <p className="help-block text-danger"></p>
                             </div>
                         </div>
