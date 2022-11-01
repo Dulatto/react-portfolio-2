@@ -29,9 +29,15 @@ function AboutPage(props) {
                         <div className="box"><span >Javascript</span></div>
                         <div className="box"><span >React.js</span></div>
                         <div className="box"><span >JQuery</span></div>
-                        <div className="box"><span >SQL</span></div>
-                        <div className="box"><span >Bootstrap</span></div>
-                        <div className="box"><span >Github</span></div>
+                        <div className="box"><span >TypeScript</span></div>
+                        <div className="box"><span >Bootstrap 5</span></div>
+                        <div className="box"><span >RESTful API</span></div>
+                        <div className="box"><span >Git</span></div>
+                        <div className="box"><span >Responsive and Mobile Design</span></div>
+                        <div className="box"><span >Cross-Browser Development</span></div>
+                        <div className="box"><span >Browser Debugging</span></div>
+                        <div className="box"><span >Webpack</span></div>
+
                         <div className="box"><button className="btn btn-default btn-md"><a href="/src/doc/CV_Dulat_Omarov_2022.pdf" ><b> Download CV</b></a></button></div>
                     </div>
                 </figure>
