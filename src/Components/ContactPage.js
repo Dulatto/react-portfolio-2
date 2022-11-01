@@ -63,7 +63,7 @@ function ContactPage(props) {
                         </div>
                     </div>
                     <div className="form-group">
-                        <textarea name="message" id="message" className="form-control" rows="5" placeholder="Message" required></textarea>
+                        <textarea name="message" id="message" className="form-control" rows="8" placeholder="Message" required></textarea>
                         <p className="help-block text-danger"></p>
                     </div>
                     <div id="success"></div>
