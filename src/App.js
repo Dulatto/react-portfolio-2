@@ -1,10 +1,12 @@
-
+import React from 'react';
 import './App.css';
 import AboutPage from './Components/AboutPage';
 import ContactPage from './Components/ContactPage';
 import HomePage from './Components/HomePage';
 import PortfolioPage from './Components/PortfolioPage';
-import { ToastContainer } from 'react-toast'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
@@ -37,7 +39,10 @@ function App() {
           </div>
         </div>
       </div>
-      <ToastContainer position="top-right" delay={3000} />
+      <ToastContainer position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        theme="light" />
     </div>
   );
 }

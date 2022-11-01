@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { toast } from 'react-toast'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function ContactPage(props) {
 
@@ -19,8 +20,14 @@ function ContactPage(props) {
             .then(
 
                 (result) => {
-                    toast.success('Thank you, your message has been sent!',)
-                    console.log(result)
+                    toast.success('Thank you, your message has been sent!', {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        pauseOnHover: true,
+                        theme: "light",
+                    });
+
                 }
 
             ).catch((error) => {
