@@ -17,10 +17,10 @@
   font-weight: 700;
 }
 .portfolio button{
-  color: #127e8b;
+  color: #E3721B;
 }
 .portfolio .btn:hover{
-  color: #127e8b;
+  color: #E3721B;
 }
 
 .nav-link, .nav-link:focus, .nav-link:hover  {
@@ -55,7 +55,7 @@
   color: #fff;
   font-size: 30px;
 }
-.about-page, .contact-page{
+.about-page, .contact-page, .portfolio{
   background: #4db9c5;
   height: 830px;
 }
