@@ -17,10 +17,10 @@
   font-weight: 700;
 }
 .portfolio button{
-  color: #E3721B;
+  color: #fff;
 }
 .portfolio .btn:hover{
-  color: #E3721B;
+  color: #fff;
 }
 
 .nav-link, .nav-link:focus, .nav-link:hover  {
@@ -142,7 +142,7 @@
   animation: 0;
 }
 .button-group{
-  width:300px
+  width:190px
 }
 /*****************************/
 .bground-1 {

@@ -38,7 +38,7 @@ function PortfolioPage(props) {
             console.log(gallery)
         }
         let list = gallery.map(item => {
-            return (<div className="col-lg-4 col-sm-6 p-2 portfolio-item">
+            return (<div className="col-sm-4 p-2 portfolio-item">
                 <div className={`card hover-bg text-dark mb-2 bground-${item.id}`} key={item.id}>
                     <a href={item.url} target="_blank">
                         <div className="card-body">
@@ -71,8 +71,8 @@ function PortfolioPage(props) {
                 <div className="col-12 ">
                     <div className="mx-auto button-group mb-2" >
 
-                        <button type="button" className={`btn  me-3 ${activeButton === 'web' ? 'border-bottom fw-bold' : null}`} name='web' onClick={(e) => handleButtonName(e)}>WEB </button>
-                        <button type="button" className={`btn  me-3 ${activeButton === 'react' ? 'border-bottom fw-bold' : null}`} name='react' onClick={(e) => handleButtonName(e)}>REACT</button>
+                        <button type="button" className={`btn fw-bold me-3 ${activeButton === 'web' ? 'border-bottom ' : null}`} name='web' onClick={(e) => handleButtonName(e)}>WEB </button>
+                        <button type="button" className={`btn fw-bold me-3 ${activeButton === 'react' ? 'border-bottom ' : null}`} name='react' onClick={(e) => handleButtonName(e)}>REACT</button>
                     </div>
                 </div>
                 <div className="col-12 position-relative">
