@@ -32,11 +32,12 @@ function AboutPage(props) {
                             <div className="box"><span >JQuery</span></div>
                             <div className="box"><span >TypeScript</span></div>
                             <div className="box"><span >Bootstrap 5</span></div>
-                            <div className="box"><span >Webpack</span></div>
+                            <div className="box"><span >Webpack, NPM</span></div>
                             <div className="box"><span >RESTful API</span></div>
                             <div className="box"><span >MUI</span></div>
                             <div className="box"><span >Git</span></div>
                             <div className="box"><span >JEST</span></div>
+                            <div className="box"><span >Agile/Scrum</span></div>
                         </div>
                         <div className="col-6">
                             <div className="box"><span >Responsive and Mobile Design</span></div>
