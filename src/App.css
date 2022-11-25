@@ -71,9 +71,7 @@
 .contactForm .btn-check:focus+.btn-outline-secondary, .btn-outline-secondary:focus {
   box-shadow: 0 0 0 0rem rgb(108 117 125 / 50%); 
 }
-.contactForm .form-control{
-  border: 2px solid #127e8b;
-}
+
 .contactForm .form-control:focus {
   border-color: #E3721B; 
   box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%); 

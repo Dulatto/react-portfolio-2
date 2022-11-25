@@ -37,10 +37,8 @@ function ContactPage(props) {
     };
     return (
 
-        <div className="row contact-page" >
-
-            <div className="col-md-7 my-3 ms-4 p-3 shadow contactForm" >
-
+        <div className="row contact-page px-2" >
+            <div className="col-md-7 mb-3 ms-4 p-3 shadow contactForm" >
                 <form name="sentMessage" id="contactForm" className="mt-4" ref={form} onSubmit={sendEmail}>
                     <div className="row">
                         <div className="col me-2">
