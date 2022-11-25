@@ -24,19 +24,25 @@ function AboutPage(props) {
                     All my skills you can see in right side for Desktop version or in following section for mobile.</p>
                 <figure>
                     <h4 className="fw-bold skills-header">Skills</h4>
-                    <div >
-                        <div className="box"><span >HTML5/CSS3</span></div>
-                        <div className="box"><span >Javascript</span></div>
-                        <div className="box"><span >React.js</span></div>
-                        <div className="box"><span >JQuery</span></div>
-                        <div className="box"><span >TypeScript</span></div>
-                        <div className="box"><span >Bootstrap 5</span></div>
-                        <div className="box"><span >RESTful API</span></div>
-                        <div className="box"><span >Git</span></div>
-                        <div className="box"><span >Responsive and Mobile Design</span></div>
-                        <div className="box"><span >Cross-Browser Development</span></div>
-                        <div className="box"><span >Browser Debugging</span></div>
-                        <div className="box"><span >Webpack</span></div>
+                    <div className="row">
+                        <div className="col-4">
+                            <div className="box"><span >Javascript</span></div>
+                            <div className="box"><span >React.js</span></div>
+                            <div className="box"><span >HTML5/CSS3</span></div>
+                            <div className="box"><span >JQuery</span></div>
+                            <div className="box"><span >TypeScript</span></div>
+                            <div className="box"><span >Bootstrap 5</span></div>
+                            <div className="box"><span >Webpack</span></div>
+                            <div className="box"><span >RESTful API</span></div>
+                            <div className="box"><span >MUI</span></div>
+                            <div className="box"><span >Git</span></div>
+                            <div className="box"><span >JEST</span></div>
+                        </div>
+                        <div className="col-6">
+                            <div className="box"><span >Responsive and Mobile Design</span></div>
+                            <div className="box"><span >Cross-Browser Development</span></div>
+                            <div className="box"><span >Browser Debugging</span></div>
+                        </div>
 
                         <div className="box"><button className="btn btn-default btn-md"><a href="../doc/CV_Dulat_Omarov_2022.pdf" ><b> Download CV</b></a></button></div>
                     </div>
