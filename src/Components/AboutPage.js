@@ -19,9 +19,9 @@ function AboutPage(props) {
             </div>
             <div className="col-md-8 skills">
                 <h4 className="fw-bold skills-header">Hello World!</h4>
-                <p> My name is Dulat. I am a Front-end Developer, graduating of Web technology program in John Abbott college. I have 3 years commercial experience providing front-end development, producing high quality responsive websites and exceptional user experience.<br />
-                    I like to code things from scratch, and enjoy bringing ideas to life in the browser.<br /> By day I'm the developer at a local agency. By night I spend my time working on freelance projects and building my own products.<br />
-                    All my skills you can see in right side for Desktop version or in following section for mobile.</p>
+                <p> Hey, my name is Dulat Omarov. I am a Front-end Web Developer with more than 4 years commercial experience providing front-end development, producing high quality responsive websites, SPA and exceptional user experience.<br />
+                    I like to code things from scratch, and enjoy bringing ideas to life in the browser.<br /> By day I'm the developer at a software company. By night I spend my time working on freelance projects and building my own products.<br />
+                </p>
                 <figure>
                     <h4 className="fw-bold skills-header">Skills</h4>
                     <div className="row">
