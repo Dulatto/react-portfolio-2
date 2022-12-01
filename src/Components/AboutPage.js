@@ -45,7 +45,7 @@ function AboutPage(props) {
                             <div className="box"><span >Browser Debugging</span></div>
                         </div>
 
-                        <div className="box"><button className="btn btn-default btn-md"><a href="../doc/CV_Dulat_Omarov_2022.pdf" ><b> Download CV</b></a></button></div>
+                        {/* <div className="box"><button className="btn btn-default btn-md"><a href="../doc/CV_Dulat_Omarov_2022.pdf" ><b> Download CV</b></a></button></div> */}
                     </div>
                 </figure>
             </div>
